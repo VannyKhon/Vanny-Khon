@@ -11,46 +11,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="text-gray-800">
-    <div class="max-w-2xl mx-auto px-6 py-12 md:py-20">
-        <header class="mb-16">
-            <h1 class="text-3xl md:text-4xl font-bold mb-2">Vanny Khon</h1>
-        </header>
-        <nav class="border-b border-gray-200 mb-16">
-            <ul class="flex space-x-8">
-                <li><a href="index.html" class="nav-link active">About</a></li>
-                <li><a href="notes.html" class="nav-link">Notes</a></li>
-                <li><a href="cv.html" class="nav-link">CV</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-        <main>
-            <!-- About Me Section -->
-            <section class="mb-16">
-                <p class="leading-loose text-gray-700">
-                    I want to live in a community where people are open and kind, where we share food and thought. Personally, I love music, classic literature, poetry, satire, and mathematics. I completed my graduate work in applied mathematics at Boston University and now work on a small organic farm where I grow fruit, vegetables, and flowers to share with my community. I also teach math, science, and English at a local middle school with a curriculum tailored to the local context. I use my farm as an observatory to study insects and their biodiversity through soundscapes and fieldwork. In my free time, I am building a benchmark to measure AI capability and safety in the Khmer language.
-                </p>
-            </section>
+    <!-- 1. The outer container is wider and centered on the page -->
+    <div class="max-w-5xl mx-auto px-6 py-12 md:py-20">
+        <!-- 2. The inner container holds your content, making it narrower -->
+        <div class="max-w-2xl">
+            <header class="mb-16">
+                <h1 class="text-3xl md:text-4xl font-bold mb-2">Vanny Khon</h1>
+            </header>
+            <nav class="border-b border-gray-200 mb-16">
+                <ul class="flex space-x-8">
+                    <li><a href="index.html" class="nav-link active">About</a></li>
+                    <!-- THE LINK IS NOW CORRECTED TO 'notes.html' -->
+                    <li><a href="notes.html" class="nav-link">Notes</a></li>
+                    <li><a href="cv.html" class="nav-link">CV</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <!-- About Me Section -->
+                <section class="mb-16">
+                    <p class="leading-loose text-gray-700">
+                        I want to live in a community where people are open and kind, where we share food and thought. Personally, I love music, classic literature, poetry, satire, and mathematics. I completed my graduate work in applied mathematics at Boston University and now work on a small organic farm where I grow fruit, vegetables, and flowers to share with my community. I also teach math, science, and English at a local middle school with a curriculum tailored to the local context. I use my farm as an observatory to study insects and their biodiversity through soundscapes and fieldwork. In my free time, I am building a benchmark to measure AI capability and safety in the Khmer language.
+                    </p>
+                </section>
 
-            <!-- Blog Links Section -->
-            <section>
-                <h2 class="text-sm font-semibold tracking-widest text-gray-600 uppercase border-b pb-2 mb-8">Projects</h2>
-                <div class="space-y-8">
-                    <a href="farm-blog.html" class="blog-link-card">
-                        <h3 class="font-bold text-lg mb-1">The Farm Observatory</h3>
-                        <p class="text-gray-600">Notes on agroecology, insect biodiversity, and community farming.</p>
-                    </a>
-                    <a href="khmer-benchmark.html" class="blog-link-card">
-                        <h3 class="font-bold text-lg mb-1">Khmer AI Benchmark</h3>
-                        <p class="text-gray-600">Developing tools to measure AI capability and safety in the Khmer language.</p>
-                    </a>
-                </div>
-            </section>
-        </main>
-        <footer class="text-center text-gray-500 mt-20 pt-8 border-t border-gray-200">
-            <p>&copy; 2025 Vanny Khon. All rights reserved.</p>
-        </footer>
-    </div>
+                <!-- Blog Links Section -->
+                <section>
+                    <h2 class="text-sm font-semibold tracking-widest text-gray-600 uppercase border-b pb-2 mb-8">Projects</h2>
+                    <div class="space-y-8">
+                        <a href="farm-blog.html" class="blog-link-card">
+                            <h3 class="font-bold text-lg mb-1">The Farm Observatory</h3>
+                            <p class="text-gray-600">Notes on agroecology, insect biodiversity, and community farming.</p>
+                        </a>
+                        <a href="khmer-benchmark.html" class="blog-link-card">
+                            <h3 class="font-bold text-lg mb-1">Khmer AI Benchmark</h3>
+                            <p class="text-gray-600">Developing tools to measure AI capability and safety in the Khmer language.</p>
+                        </a>
+                    </div>
+                </section>
+            </main>
+            <footer class="text-center text-gray-500 mt-20 pt-8 border-t border-gray-200">
+                <p>&copy; 2025 Vanny Khon. All rights reserved.</p>
+            </footer>
+        </div> <!-- End of inner container -->
+    </div> <!-- End of outer container -->
 </body>
 </html>
+
 
 
