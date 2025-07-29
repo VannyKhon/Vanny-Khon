@@ -2,12 +2,12 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f9fafb;
-    color: #1f2937; /* A slightly softer black for text */
+    color: #1f2937;
 }
 
 /* Styling for the navigation links */
 .nav-link {
-    color: #6b7280; /* Default gray color */
+    color: #6b7280;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     display: inline-block;
@@ -15,17 +15,32 @@ body {
 }
 
 .nav-link:hover {
-    color: #111827; /* Darker on hover */
+    color: #111827;
 }
 
 /* Style for the currently active navigation link */
 .nav-link.active {
-    color: #111827; /* Darkest color for active */
+    color: #111827;
     border-bottom: 2px solid #111827;
 }
 
 /* A little extra spacing for CV sections */
 .cv-section {
     margin-bottom: 1.75rem;
+}
+
+/* NEW: Styling for the project links on the main page */
+.blog-link-card {
+    display: block;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background-color: white;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.blog-link-card:hover {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    transform: translateY(-2px);
 }
 
