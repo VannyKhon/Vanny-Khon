@@ -1,83 +1,30 @@
+/* Main body styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Inter', sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937; /* A slightly softer black for text */
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    padding: 0;
-}
-
-header h1 a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul {
-    padding: 0;
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.blog-post {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-
-.blog-post:last-child {
-    border-bottom: none;
-}
-
-.blog-post h3 a {
-    color: #333;
-    text-decoration: none;
-}
-
-.blog-post .post-meta {
-    font-size: 0.9em;
-    color: #777;
-}
-
-.read-more {
+/* Styling for the navigation links */
+.nav-link {
+    color: #6b7280; /* Default gray color */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     display: inline-block;
-    background: #5cb85c;
-    color: #fff;
-    padding: 8px 15px;
-    text-decoration: none;
-    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: #fff;
+.nav-link:hover {
+    color: #111827; /* Darker on hover */
+}
+
+/* Style for the currently active navigation link */
+.nav-link.active {
+    color: #111827; /* Darkest color for active */
+    border-bottom: 2px solid #111827;
+}
+
+/* A little extra spacing for CV sections */
+.cv-section {
+    margin-bottom: 1.75rem;
 }
