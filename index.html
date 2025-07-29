@@ -3,61 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Personal Site</title>
+    <title>Vanny Khon | Personal Site</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f9fafb;
-        }
-        /* Style for the active navigation link */
-        .nav-link.active {
-            color: #111827;
-            border-bottom: 2px solid #111827;
-        }
-    </style>
+    <!-- Link to your external stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="text-gray-800">
 
-    <!-- Main container -->
     <div class="max-w-2xl mx-auto px-6 py-12 md:py-20">
-
-        <!-- Header Section -->
         <header class="mb-16">
-            <h1 class="text-3xl md:text-4xl font-bold mb-2">Your Name</h1>
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">Vanny Khon</h1>
             <p class="text-gray-600">A brief, engaging tagline about your work or research.</p>
         </header>
 
-        <!-- Navigation -->
         <nav class="border-b border-gray-200 mb-16">
             <ul class="flex space-x-8">
-                <!-- Links now point to the different HTML files -->
-                <li><a href="index.html" class="nav-link text-gray-500 hover:text-gray-800 py-2 inline-block active">Work</a></li>
-                <li><a href="notes.html" class="nav-link text-gray-500 hover:text-gray-800 py-2 inline-block">Notes</a></li>
-                <li><a href="cv.html" class="nav-link text-gray-500 hover:text-gray-800 py-2 inline-block">CV</a></li>
-                <li><a href="contact.html" class="nav-link text-gray-500 hover:text-gray-800 py-2 inline-block">Contact</a></li>
+                <li><a href="index.html" class="nav-link active">Work</a></li>
+                <li><a href="notes.html" class="nav-link">Notes</a></li>
+                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
         </nav>
 
-        <!-- Main Content Area: List of Work Posts -->
         <main>
             <div class="space-y-20">
-                <!-- Article 1: To add a new post, copy this block and update the link/text -->
                 <article>
                     <p class="text-sm text-gray-500 mb-2">July 29, 2025</p>
                     <h2 class="text-2xl font-bold mb-3">
-                        <!-- This link points to the full post in the /posts/ folder -->
                         <a href="posts/project-alpha.html" class="hover:underline">Project Alpha: A New Approach to AI Safety</a>
                     </h2>
                     <p class="text-gray-700 leading-loose">
                         This post details the initial findings from Project Alpha, focusing on a novel framework for scalable oversight...
                     </p>
                 </article>
-
-                <!-- Article 2 -->
                 <article>
                     <p class="text-sm text-gray-500 mb-2">June 15, 2025</p>
                     <h2 class="text-2xl font-bold mb-3">
@@ -70,12 +51,11 @@
             </div>
         </main>
 
-        <!-- Footer -->
         <footer class="text-center text-gray-500 mt-20 pt-8 border-t border-gray-200">
-            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <p>&copy; 2025 Vanny Khon. All rights reserved.</p>
         </footer>
-
     </div>
 </body>
 </html>
+
 
